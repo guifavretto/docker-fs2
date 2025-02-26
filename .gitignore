@@ -1,0 +1,137 @@
+# Created by https://www.toptal.com/developers/gitignore/api/node
+# Edit at https://www.toptal.com/developers/gitignore?templates=node
+
+*/node_modules/
+coverage/
+*.log
+*.pem
+*.crt
+*.key
+*.env
+.DS_Store
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# IntelliJ project files
+.idea/
+*.iml
+out/
+build/
+dist/
+
+# Local storage files
+storage/
+tmp/
+temp/
+
+# NPM Debugging
+npm-debug.log*
+
+# Yarn
+.yarn-integrity
+.yarn-remove
+
+# Bower
+bower_components/
+.bowerrc
+bower.json
+
+# VS Code
+.vscode/
+*.code-snippets
+
+# WebStorm
+.webstorm/
+*.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Atom
+.atom/
+*.atom-project
+
+# Visual Studio Code Settings
+.vs/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Archive files
+*.zip
+*.tar
+*.gz
+*.bz2
+*.rar
+*.7z
+*.xz
+*.lzma
+*.lz4
+*.tgz
+*.tbz2
+*.txz
+
+# Virtualenv
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# PyCharm
+*.ipynb_checkpoints
+
+# Jupyter Notebook
+*.ipynb_checkpoints
+
+# Sphinx documentation
+docs/_build/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# PyType extensions
+*.pytype
+
+# Cython debug symbols
+*.dbg
+
+# May be the same as a DST file, but there is only one of these in the entire codebase
+*.lib
+
+# End of https://www.toptal.com/developers/gitignore/api/node
